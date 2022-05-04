@@ -7,3 +7,5 @@ resource to all other processes or threads, or _shared_ used when a process
 or thread needs access to a resource but can shared it with others.  A lock
 cannot be acquired _exclusive_ until all other shared or exclusive access
 has been released.
+
+For the asyncio version of this library, see [aiomultilock](https://github.com/JoelBender/aiomultilock).
